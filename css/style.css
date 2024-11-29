@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana, sans-serif;
+}
+.space{
+    letter-spacing: .3rem;
+}
+.space:hover{
+    background-color: #ccc;
+}
+#hero{
+    height: 100vh;
+    background-image: url('../img/architect.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+position: relative;
+}
+.center{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%,-50%);
+}
